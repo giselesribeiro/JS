@@ -15,12 +15,19 @@
       </div>
      <script>
 
- function calcula(){
+ function calcular(){
     var txtv = window.document.getElementById('txtvel')
     var res = window.document.getElementById('res')
     var vel = Number(txtv.value)
 
-    res.innerHTML = (`Sua velocidade atual é de ${vel}`)
+    res.innerHTML = `<p> Sua velocidade atual é de <strong> ${vel} </strong> km/h <p>`
+        if (vel > 60) {
+            res.innerHTML += `<p> Você está MULTADO  por excesso de velocidade </p>`
+
+        } else {
+            res.innerHTML += `<p> Dirija sempre usando o cinto de segurança </p>`
+        }
+   
             }
      </script>
 </body>
