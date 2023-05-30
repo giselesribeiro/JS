@@ -1,4 +1,9 @@
 @charset "UTF-8";
+*{
+    padding:0;
+    margin: 0;
+    
+}
 
 body{
     background-color: cornflowerblue;
@@ -13,8 +18,9 @@ section{
     background-color: white;
     margin: auto;
     border-radius: 5px;
-    padding: 10px;
+    padding: 3px;
     width: 500px;
+    height: 200px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.425);
 }
 p{
@@ -25,12 +31,19 @@ p{
 p#footer{
     color: white;
 }
-div#a{
-   
+div > img#foto{
+    background-color: black;
+    width: 500px;
+    height: 130px;
+    color: white;
 }
-div#b{
 
+
+div#msg{
+    background-color: crimson;
+    font-size: 15pt;
 }
+
 footer{
    text-align: center;
    font-style: italic;
