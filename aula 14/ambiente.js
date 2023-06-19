@@ -1,12 +1,4 @@
-/*
-var c = 1
-do {
+console.log('vai começar...')
+ for (var c=1; c<=10;c++){
     console.log(c)
-    c++
-} while (c <= 5)
-*/
-console.log ('Vai começar...')
-for(var c=1; c<=10; c++){
-    console.log(c)
-}
-console.log('Fiimm!!')
+ } console.log('FIIIM!!')
