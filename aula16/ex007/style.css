@@ -3,11 +3,12 @@
 body{
     background-color: cornflowerblue;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
-    color: white;
+    font-size: 15pt;
+   
 }
 header{
     text-align: center;
+    color: white;
 }
 section{
     background-color: white;
@@ -34,4 +35,7 @@ div#b{
 footer{
    text-align: center;
    font-style: italic;
+}
+select#flista{
+    width: 150px;
 }
