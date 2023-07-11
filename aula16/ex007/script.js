@@ -20,8 +20,11 @@ function naLista(n, l){
 
 function adicionar() {
    if(eNumero(num.value) && !naLista(num.value, valores)){
-      window.alert('Tudo ok')
-      valores.push()
+      
+      valores.push(Number(num.value))
+      var item = document.createElement('option')
+      item.text = (`Valor ${num.value} adicionado.`)
+      lista.appendChild(item)
 
    }else{
       window.alert('Numero inválido')
